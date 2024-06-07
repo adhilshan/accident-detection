@@ -1,0 +1,8 @@
+Flask==3.0.0
+numpy
+pandas
+opencv-python
+tensorflow
+keras
+twilio
+matplotlib

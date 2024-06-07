@@ -1,0 +1,18 @@
+{
+    "id":"92189",
+    "address":"Chandapura Circle",
+    "stream_on":"https://firebasestorage.googleapis.com/v0/b/accident-detection-4382c.appspot.com/o/cars.mp4?alt=media&token=f1e3137d-43e6-4778-9dc2-3deca7962799",
+    "location": {
+        "lat":"12.802460",
+        "lon":"77.704686"
+    },
+    "owner_info":{
+        "phno":"+919400312201",
+        "email":"adhilshanrahman@gmail.com"
+    },
+    "emergency-contact":{
+        "phno":"+919901993641",
+        "email":"barcode.develop@gmail.com",
+        "address":"NH 48, Keerthi Layout, Teachers Colony, Chandapura, Bengaluru, Chandrapura -Chatrakane, Karnataka 562107"
+    }
+}

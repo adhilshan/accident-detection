@@ -12,7 +12,7 @@ import os
 import io
 
 app = Flask(__name__)
-model = AccidentDetectionModel("model.json", 'model_weights.h5')
+model = AccidentDetectionModel("./api/model.json", './api/model_weights.h5')
 font = cv2.FONT_HERSHEY_SIMPLEX
 thread = None
 thread_lock = Lock()
@@ -23,7 +23,7 @@ auth_token = "ef5abfd5d95c2cd7cfb5e7e0274f5d70"
 client = Client(account_sid, auth_token)
 last_call_time = 0
 
-with open('config.json') as f:
+with open('./api/config.json') as f:
     configData = json.load(f)
     stream_on = configData.get('stream_on')
     id = configData.get('id')

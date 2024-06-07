@@ -1,7 +1,5 @@
 # Accident Detection System
 
-**Last Updated: *7 June 2022***
-
 1. Demonstration
 2. What is Accident Detection System?
 3. Prerequisites
